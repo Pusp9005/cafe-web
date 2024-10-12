@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De'Paris Cafe</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,100;1,700&display=swap" rel="stylesheet" />
+    
+    <!-- <script src="https://unpkg.com/feather-icons"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    
+    <link rel="shortcut icon" href="img/espresso.jpg" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+   
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo">De' Paris <span>Cafe</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+   
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Priyanshu <span> Tripathi</span>.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, nostrum?</p>
+        <a href="#" class="cta">view</a>
+      </main>
+    </section>
+   
+    <section class="about" id="about">
+      <h2><span>About</span> Us</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/coffe_latte.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Why Choose Our Coffee? <span>Natural</span> coffee</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur magnam expedita saepe assumenda corrupti rem!</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quo distinctio dolor deserunt consectetur soluta possimus corporis dolorem officiis omnis?</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="menu" id="menu">
+      <h2><span>Menu</span> Kami.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda. Deleniti animi voluptatum minima?</p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/espresso.jpg" alt="espresso" class="menu-card-image" />
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-price">IDR 15k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/espresso.jpg" alt="espresso" class="menu-card-image" />
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-price">IDR 15k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/espresso.jpg" alt="espresso" class="menu-card-image" />
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-price">IDR 15k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/espresso.jpg" alt="espresso" class="menu-card-image" />
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-price">IDR 15k</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, saepe.</p>
+      <div class="row">
+       
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Customer" name="Name" id="Name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder=" Email" name="email" id="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="mobile Number" name="number" id="number" />
+          </div>
+          <div class="input-inline">
+            <fieldset class="starability-basic">
+              <legend>Rating</legend>
+              <input type="radio" id="no-rate" class="input-no-rate" name="rating" value="0" checked aria-label="No rating." />
+              <input type="radio" id="first-rate1" name="rating" value="1" />
+              <label for="first-rate1" title="Terrible">1 star</label>
+              <input type="radio" id="first-rate2" name="rating" value="2" />
+              <label for="first-rate2" title="Not good">2 stars</label>
+              <input type="radio" id="first-rate3" name="rating" value="3" />
+              <label for="first-rate3" title="Average">3 stars</label>
+              <input type="radio" id="first-rate4" name="rating" value="4" />
+              <label for="first-rate4" title="Very good">4 stars</label>
+              <input type="radio" id="first-rate5" name="rating" value="5" />
+              <label for="first-rate5" title="Amazing">5 stars</label>
+            </fieldset>
+          </div>
+          <button type="submit" class="btn">Hello</button>
+        </form>
+      </div>
+    </section>
+   
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/depariscafe/"><i data-feather="instagram"></i></a>
+        <a href="https://www.facebook.com/search/top?q=de%27paris%20cafe"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      
+    </footer>
+    
+    <script>
+      feather.replace();
+    </script>
+  
+    <script src="js/script.js"></script>
+  </body>
+</html>
